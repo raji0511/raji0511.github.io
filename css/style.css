@@ -11,7 +11,16 @@
 *
 * ======================================================= */
 
+.exploreBtn {
 
+  background-color: black;
+
+  color: white;
+
+  font-weight: bold;
+
+  }
+  
 .offerBanner{
   padding: 10px;
   height: 150px;
@@ -23,9 +32,7 @@
 }
 
 
-.exploreBtn {
-background-color: black;
-}
+
 body {
   font-family: "Quicksand", Arial, sans-serif;
   font-weight: 400;

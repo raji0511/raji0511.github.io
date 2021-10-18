@@ -10,13 +10,33 @@ document.getElementById("loginBtn").onclick = function(){
 
 
     if(name && password) {
-        // digitalData.userInfo.loginStatus = "true";
-        // digitalData.userInfo.username = name;
-        localStorage.setItem("username", name);
-        localStorage.setItem("loginStatus", "true")
-        window.location.href = "index.html"
 
-      
+        // digitalData.userInfo.loginStatus = "true";
+
+        // digitalData.userInfo.username = name;
+
+        localStorage.setItem("username", name);
+
+        localStorage.setItem("loginStatus", "true")
+
+        if(localStorage.getItem("bannerClick")){
+
+            window.location.href = "tours.html"
+
+        }
+
+        else{
+
+            window.location.href = "index.html"
+
+
+
+        }
+
+       
+
+     
+
     }
 
 

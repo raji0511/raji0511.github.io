@@ -303,3 +303,21 @@
 
 
 }());
+
+document.querySelector(".exploreBtn").addEventListener('click',() => {
+
+    if(localStorage.getItem("username")) {
+
+        window.location.href = "./tours.html"
+
+    }
+
+    else{
+
+        window.location.href = "./login.html"
+
+    }
+
+    localStorage.setItem("bannerClick", "true")
+
+})
