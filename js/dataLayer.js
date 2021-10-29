@@ -1,8 +1,6 @@
 var digitalData = {
 
- 
-
-    page: {
+     page: {
    
         pageInfo: {
    
@@ -30,7 +28,6 @@ var digitalData = {
     }
    
    }
-   
    
    
    var username = localStorage.getItem("username");
